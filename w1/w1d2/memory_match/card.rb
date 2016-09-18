@@ -17,5 +17,8 @@ class Card
     return value if face_up
     'X'
   end
-  
+
+  def ==(other_card)
+    value == other_card.value
+  end
 end
