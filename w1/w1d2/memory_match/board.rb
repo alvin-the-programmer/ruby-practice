@@ -3,7 +3,7 @@ require_relative "card"
 class Board
   attr_reader :grid
 
-  GRID_LENGTH = 2
+  GRID_LENGTH = 4
 
   def initialize
     @grid = Array.new(GRID_LENGTH) { Array.new(GRID_LENGTH) }

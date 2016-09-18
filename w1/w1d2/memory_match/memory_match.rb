@@ -10,7 +10,6 @@ class Memory_match
     board.populate
   end
 
-
   def play
     round until over?
   end
